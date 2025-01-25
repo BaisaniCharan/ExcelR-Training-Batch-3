@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class demo7
+public class Demo007
 
 
 {
