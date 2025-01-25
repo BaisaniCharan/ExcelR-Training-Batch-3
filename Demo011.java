@@ -7,7 +7,7 @@ class child extends parent{
     String d = super.b;
 }
 
-class Demo11{
+class Demo011{
     public static void main(String[] args) {
         child obj = new child();
         System.out.println(obj.a);
