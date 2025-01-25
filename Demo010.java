@@ -16,7 +16,7 @@ class customer{
         System.out.println("Hello "+username+"\nYour account number is:"+ bnkaccount +"\nYour Balance is:"+blnce);
     }
 }
-public class Democh10 {
+public class Demo010 {
     
     
     public static void main(String args[]){
