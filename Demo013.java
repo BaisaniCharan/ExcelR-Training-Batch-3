@@ -1,4 +1,4 @@
-public class Demo13{
+public class Demo013{
 
 	public static double getTriangleArea(int s1,int s2,int s3){
 		double s = (s1 + s2 + s3) / 2;
