@@ -1,3 +1,5 @@
+//Calling method from another class
+
 import java.util.Scanner;
 class customer{
     private String username;
