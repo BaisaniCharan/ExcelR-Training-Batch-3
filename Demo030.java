@@ -1,8 +1,6 @@
-package folder;
-
 import java.util.*;
 
-public class Demo30{
+public class Demo030{
 
 	public static void main(String[] args) {
 		 ArrayList<Integer> araylist1 = new ArrayList<>();	    
