@@ -11,12 +11,12 @@ public class Demo008 {
             System.out.print("Enter password: ");
             password = scanner.nextLine().trim();
 
-            if (!(username.equals("Mahesh") && password.equals("Mahesh@123"))) {
+            if (!(username.equals("charan") && password.equals("charan@123"))) {
                 System.out.println("Welcome to Mallareddy University.\n");
             }else{
                 System.out.println("Invalid creditentials.... Try Again!!");
             }
-        } while (!(username.equals("Mahesh") && password.equals("Mahesh@123"))); // Loop if credentials are incorrect
+        } while (!(username.equals("charan") && password.equals("charan@123"))); // Loop if credentials are incorrect
 
         // Success message
         System.out.println(username + ", Welcome to MRU!");
