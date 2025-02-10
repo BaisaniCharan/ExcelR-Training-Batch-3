@@ -1,31 +1,21 @@
-import java.util.Scanner;
-
-public class Demo020 {
-
+import java.util.*;
+class Demo029{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter the number of terms for the Fibonacci series: ");
-        int terms = scanner.nextInt();
-
-        if (terms <= 0) {
-            System.out.println("Please enter a positive integer.");
-        } else {
-            System.out.println("Fibonacci Series up to " + terms + " terms:");
-            generateFibonacci(terms);
-        }
-
-        scanner.close();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of digits: ");
+        int n=sc.nextInt();
+        Demo020 d = new Demo020();
+        d.getFibonacciSeries(n);
     }
-    public static void generateFibonacci(int terms) {
-        int first = 0, second = 1;
-
-        for (int i = 1; i <= terms; i++) {
-            System.out.print(first + " ");
-            int next = first + second;
-            first = second;
-            second = next;
+    void getFibonacciSeries(int n){
+        System.out.println("Fibonacci series: ");
+        int a=0;
+        int b=1;
+        for(int i=0;i<n;i++){
+            System.out.print(a+" ");
+            int c=a+b;
+            a=b;
+            b=c;
         }
-        System.out.println();
     }
 }
