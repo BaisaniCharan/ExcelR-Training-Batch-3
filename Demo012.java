@@ -1,13 +1,16 @@
-class CircleAreaDemo1 {
-	void Area() {	
-		int r = 5;
-		double ca = Math.PI* Math.pow(r, 2);
-		System.out.println("The circle area is : " + ca);
-	}
-}
-public class Demo012 {
+import java.util.*;
+
+class Demo012{
+    void Area(int rad){
+        double ca = Math.PI*rad*rad;
+        System.out.println("Area of Circle: "+ca);
+    }
+
     public static void main(String[] args) {
-        CircleAreaDemo1 obj = new CircleAreaDemo1();
-        obj.Area();
+        Demo012 obj = new Demo012();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter radius: ");
+        int rad = sc.nextInt();
+        obj.Area(rad);
     }
 }
