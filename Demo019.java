@@ -1,5 +1,5 @@
 import java.util.*;
-class Demo029{
+class Demo019{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of digits: ");
