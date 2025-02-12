@@ -1,4 +1,4 @@
-public class Demo26 {
+public class Demo026 {
     public static void main(String[] args) {
         String input = "Hello, World!";
         char[] chars = input.toLowerCase().toCharArray();
@@ -14,7 +14,6 @@ public class Demo26 {
                 }
             }
         }
-
         System.out.println("Number of Vowels: " + vowels);
         System.out.println("Number of Consonants: " + consonants);
     }
